@@ -3,8 +3,7 @@
 1. Contacts:
 * Discord: Arseny#5101
 * E-mail: arseny.aileksandrovich@gmail.com
-2. About myself:
-I love programming and am not afraid of difficult tasks, I want to learn and learn new things. I'm not used to stopping there. I want to work Front-End. 
+2. About myself:<br>I love programming and am not afraid of difficult tasks, I want to learn and learn new things. I'm not used to stopping there. I want to work Front-End. 
 3. Code example:
 ```javascript
 function outside() {
