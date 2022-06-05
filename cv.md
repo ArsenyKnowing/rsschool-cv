@@ -17,7 +17,7 @@ function outside() {
 outside()(10);
 '''
 4. Work experience:
-*Nothing yet.*
+* Nothing yet.
 5. Education and courses:
 * SoloLearn cours JavaScript
 * SoloLearn cours HTML
