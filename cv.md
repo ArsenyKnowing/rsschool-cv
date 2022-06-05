@@ -15,7 +15,7 @@ function outside() {
     return inside;
 }
 outside()(10);
-'''
+```
 4. Work experience:
 * Nothing yet.
 5. Education and courses:
