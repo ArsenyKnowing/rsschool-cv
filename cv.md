@@ -6,7 +6,7 @@
 2. About myself:
 I love programming and am not afraid of difficult tasks, I want to learn and learn new things. I'm not used to stopping there. I want to work Front-End. 
 3. Code example:
-```js script
+```javascript
 function outside() {
     let x = 5;
     function inside(x){
