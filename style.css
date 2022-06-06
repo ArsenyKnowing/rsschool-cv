@@ -3,4 +3,30 @@ body {
     font-size: 12px;
     max-width: 700px;
     margin: auto;
+    background-color: #020226;
+    
+}
+h1 {
+    font-size: 3em;
+    letter-spacing: .6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: aliceblue;
+}
+img {
+    height:500px;
+    width:500px;
+}
+main { 
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+}
+section {
+    color:aliceblue;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
 }
