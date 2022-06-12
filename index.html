@@ -4,31 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arseny Rakhimov</title>
+    <title>CV</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Arseny Rakhimov</h1>
-    <div>
-        <img src="arseny.jpg" alt="">
+  <header class="header">
+    <div class="container">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#contactinformation" class="nav-link">Contact information</a></li>
+        <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+        <li class="nav-item"><a href="#codeexample" class="nav-link">Code Example</a></li>
+        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+    <div class="rss">
+      <h1>Arseny Rakhimov</h1>
+        <img class="my" src="arseny.jpg" alt="Arseny Rakhimov">
     </div>
-    <main>
-        <section>
+    <main class="main gird">
+      <div class="container">
+        <section class="section section-title" id="contactinformation">
             <h2>Contact information:</h2>
-            <p>Discord: Arseny#5101<br> E-mail: arseniaoo777@gmail.com</p>
+            <ul>
+              <li>Discord: Arseny#5101</li>
+              <li>E-mail: arseniaoo777@gmail.com</li>
+            </ul>
         </section>
-        <section>
+        <section class="section section-title" id="aboutme">
             <h2>About me:</h2>
             <p>I love programming and am not afraid of difficult tasks,<br> I want to learn and learn new things.<br> I'm not used to stopping there. I want to work Front-End.</p>
         </section>
-        <section>
+        <section class="section section-title" id="courses">
             <h2>Courses:</h2>
-            <p>SoloLearn cours JavaScript.<br> SoloLearn cours HTML.</p>
+            <ul>
+            <li>SoloLearn cours JavaScript.</li>
+            <li>SoloLearn cours HTML.</li>
+            </ul>
         </section>
-        <section>
+        <section class="section section-title" id="codeexample">
+          <h2>Code Example</h2>
+          <pre>
+            <code>
+function outside() {
+    let x = 5;
+    function inside(x){
+        return x * 2;
+    }
+    return inside;
+}
+outside()(10);
+            </code>
+          </pre>
+        </section>
+        <section class="section section-title" id="languages">
             <h2>Languages:</h2>
-            <p>Russian - Native<br> Ukrainian - Intermediate<br> English level - A2</p>
+            <ul>
+              <li>Russian- Native</li>
+              <li>Ukrainian - Intermediate</li>
+              <li>English level - A2</li>
+            </ul>
         </section>
+      </div>
     </main>
+    <footer class="footer">
+        <a class="my-github" href="https://github.com/ArsenyKnowing">
+          <img class="github-icon" src="git.jpg" alt="Github Icon" width="26" height="26">
+          <p>Visit my GitHub</p>
+        </a>
+        <p>© 2022</p>
+        <a href="https://rs.school/js-stage0/">
+          <img src="rs_school_js.jpg" alt="Rsschool Icon" width="100" height="36">
+        </a>
+    </footer>
 </body>
 </html>

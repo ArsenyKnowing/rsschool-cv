@@ -1,32 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+html {
+    scroll-behavior: smooth; 
+  }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
-    max-width: 700px;
-    margin: auto;
-    background-color: #aaaaeb;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: hsl(0, 5%, 8%);
+    background-color: rgb(197, 220, 246);
+  }
+.header {
+    background-color: rgb(174, 241, 241);
 }
-h1 {
-    font-size: 3em;
-    letter-spacing: .6em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color: rgb(10, 10, 10);
-}
-img {
-    height:500px;
-    width:500px;
-}
-main { 
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 3em;
-}
-section {
-    color:rgb(3, 4, 4);
+.rss {
+   background-color: rgb(245, 234, 241);
 }
 
-h2 {
-    font-size: 1.5em;
-    padding-bottom: 1em;
+h1 {
+    text-align: center
 }
+
+.my {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.section-title {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #171a18;
+  }
+
+.header {
+    border: 1px solid rgb(244, 240, 240)
+}
+
+.main {
+    border: 1px solid rgb(236, 231, 231)
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #ebe2e2;
+    background-color: #171a18;
+  }
+  
+footer a {
+    text-decoration: none;
+    color: #e8e1e1;
+  }
+  
+footer .github-icon {
+    margin-right: 10px;
+  }
+  
+.my-github {
+    display: flex;
+    align-items: center;
+  }
