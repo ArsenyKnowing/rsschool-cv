@@ -18,3 +18,10 @@ function positiveSum(arr) {
 }
 positiveSum([1, 2, 3, 4, 5]);
 ```
+4. Work experience:
+* Nothing yet.
+5. Education and courses:
+* SoloLearn cours JavaScript
+* SoloLearn cours HTML
+6. Language:
+English level - A2
