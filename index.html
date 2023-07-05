@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arseny Rakhimov</title>
@@ -23,6 +24,27 @@
             <div class="mini-block">
                 <h2>Contacts</h2>
                 <p>Discord: Arseny#5101 E-mail: arseny.aileksandrovich@gmail.com</p>
+            </div>
+            <div class="mini-block">
+                <h2>About myself</h2>
+                <p>I love programming and am not afraid of difficult tasks, I want to learn and learn new things. I'm not used to stopping there. I want to work Front-End.</p>
+            </div>
+            <div class="mini-block">
+                <h2>Code example</h2>
+                <pre>
+                    <code>
+                        function positiveSum(arr) {
+                            let arrPositive = [];
+                            arr.forEach((el) => {
+                              if (el > 0) {
+                                arrPositive.push(el);
+                              }
+                            });
+                            return arrPositive.reduce((a, b) => a + b, 0);
+                          }
+                          positiveSum([1, 2, 3, 4, 5]); 
+                    </code>
+                </pre>
             </div>
         </section>
     </main>
