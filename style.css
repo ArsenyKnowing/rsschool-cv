@@ -279,3 +279,14 @@ footer {
   transition: 1s linear;
   cursor: pointer;
 }
+@media screen and (max-width: 900px) {
+  .img-header {
+    display: block;
+    position: absolute !important;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 5px solid rgb(255, 255, 255);
+    width: calc(10% + (20 - 10) * ((100vw - 320px) / (900 - 320)));
+  }
+}
+
