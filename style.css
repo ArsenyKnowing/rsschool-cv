@@ -182,6 +182,14 @@ code {
   color: white;
   font-size: 15px;
 }
+.proj {
+  text-decoration: none;
+  color: #ffffff;
+}
+.proj:hover {
+  color: #fbff02;
+  cursor: pointer;
+}
 p {
   color: #ffffff;
   font-family: Work Sans, sans-serif;
@@ -198,12 +206,20 @@ h2 {
   letter-spacing: 0.6px;
   text-align: center;
   margin-top: 30px;
-  font-family: 'Ysabeau SC', sans-serif; /*googl fonts*/
+  font-family: "Ysabeau SC", sans-serif; /*googl fonts*/
 }
+/*footer*/
 footer {
+  background-color: #ffffff;
   display: flex;
-  justify-content: center;
-  height: 5%;
+  justify-content: space-between;
+  height: 7%;
   width: 100%;
-  background-color: #f70000;
+}
+.date {
+  color: #1f233e;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
 }
