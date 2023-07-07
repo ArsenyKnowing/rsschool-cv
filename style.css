@@ -30,12 +30,13 @@ header {
   width: 100%;
 }
 h1 {
-  font-family: sans-serif;
+  font-family: Work Sans, sans-serif;
   font-size: 28px;
   font-weight: 200;
   letter-spacing: 0.6px;
   text-align: center;
   color: #ffffff;
+  font-family: "Bebas Neue", sans-serif; /*googl fonts*/
 }
 .navigation {
   display: flex;
@@ -96,6 +97,11 @@ nav ul {
 .contacLi {
   list-style-type: none;
   padding: 10px;
+}
+.contacLi:hover {
+  animation: shake 0.5s;
+  transition: 1s linear;
+  cursor: pointer;
 }
 .shaking:hover {
   animation: shake 0.5s;
