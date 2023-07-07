@@ -223,3 +223,30 @@ footer {
   font-weight: 800;
   padding: 10px;
 }
+/*Logo RS Scholl*/
+.RS {
+  margin-right: 0.2%;
+  margin-top: 1%;
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 70px;
+  height: 46px;
+}
+.RS:hover {
+  animation: shake 0.5s;
+  transition: 1s linear;
+  cursor: pointer;
+}
+/*Logo git*/
+.gitLogo {
+  width: 32px;
+  height: 32px;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.gitLogo:hover {
+  animation: shake 0.5s;
+  transition: 1s linear;
+  cursor: pointer;
+}
